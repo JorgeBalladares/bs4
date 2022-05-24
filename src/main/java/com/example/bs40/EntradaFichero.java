@@ -41,7 +41,7 @@ public class EntradaFichero {
         InputStream entrada;
         Properties propiedades = new Properties();
         try {
-            entrada = new FileInputStream("C:\\Users\\jorge.balladares\\Desktop\\bs4.0\\src\\main\\resources\\application.properties");
+            entrada = new FileInputStream("C:\\Users\\jorge.balladares\\Desktop\\bs4.0\\src\\main\\resources\\application.yml");
             propiedades.load(entrada);
             System.out.println(propiedades.getProperty("VAR1"));
             System.out.println(propiedades.getProperty("My.VAR2"));
